@@ -30,7 +30,11 @@ param hubGWASN int = 300
 
 param storagePrefix string = 'diagstor'
 
-param tunnelKey string = 'Routeserver'
+param tunnelKey string = 'Routeserver2021'
+
+param adminUsername string = 'azureuser'
+
+param adminPassword string
 
 targetScope = 'subscription'
  
